@@ -1,5 +1,6 @@
 o connect to a sqlite3 database file and retrieve the number of students and the average grade of all students, you can use the following code in Python:
-""""
+
+```{r}
 Copy code
 # Import the sqlite3 module
 import sqlite3
@@ -25,7 +26,7 @@ print('Average grade:', avg_grade)
 # Close the cursor and the connection to the database
 cursor.close()
 conn.close()
-""
+```
 This code first imports the sqlite3 module, which is used to connect to and query a sqlite3 database file. It then uses the connect method to connect to the database file and create a cursor object, which is used to execute SQL queries and retrieve the results.
 
 The code then uses the execute method to execute a SQL query to retrieve the number of students in the students table, and uses the fetchone method to retrieve the first result from the query, which is the number of students. It also executes a SQL query to retrieve the average grade of all students, and retrieves the first result from the query, which is the average grade.
