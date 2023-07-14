@@ -1,0 +1,28 @@
+print('What do you get when you cross a snowman with a vampire?')
+input()
+print('Frostbite!')
+print()
+
+print('Why was the math book sad?')
+input()
+print('Because it had too many problems.')
+print()
+
+print('What do dentists call a astronaut\'s cavity?')
+input()
+print('A black hole!')
+print()
+
+print('Knock knock.')
+input()
+print("Who's there?")
+input()
+print('Interrupting cow.')
+input()
+print('Interrupting cow wh', end='')
+print('-MOO!')
+print()
+
+print('Why did the tomato turn red?')
+input()
+print('Because it saw the salad dressing!')
